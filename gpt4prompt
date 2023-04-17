@@ -15,5 +15,3 @@ The AddSongsToPlaylist function does the following:
 Retrieves all the .mp3 and .m4a files from the input folder (recursively).
 For each song file, it checks if the song is already in the playlist by comparing the file path.
 If the song is not in the playlist, it adds the song to the playlist.
-
-then create an xml file that i can import to create a daily task under user mikey that will run at 12am and call the script with the following arguments, assume the script is located in a repo called iPU in my home directory: music_directory = "C:\Music"

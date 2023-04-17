@@ -8,6 +8,4 @@ Open a powershell prompt
   
   git clone https://github.com/virtualGain/iPU.git
   
-modify the xml to your windows username!
-
-  Register-ScheduledTask -Xml (Get-Content DailyTask.xml | Out-String) -TaskName "DailyiTunesPlaylistTask"
+set up a daily task to run the script
