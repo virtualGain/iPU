@@ -43,7 +43,7 @@
   <Actions Context="Author">
     <Exec>
       <Command>Powershell.exe</Command>
-      <Arguments>-ExecutionPolicy Bypass -File "$env:USERPROFILE\iPU\iTunesScript.ps1" -music_directory "C:\Music"</Arguments>
+      <Arguments>-ExecutionPolicy Bypass -File "$env:USERPROFILE\git-repos\iPU\iTunesScript.ps1" -music_directory "C:\Music"</Arguments>
     </Exec>
   </Actions>
 </Task>
