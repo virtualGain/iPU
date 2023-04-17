@@ -10,4 +10,6 @@ Open a powershell prompt
   
 modify the xml to your windows username!
 
+  cd iPU
+
   Register-ScheduledTask -Xml (Get-Content DailyTask.xml | Out-String) -TaskName "DailyiTunesPlaylistTask"
